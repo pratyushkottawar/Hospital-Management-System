@@ -38,6 +38,7 @@ def deletepatientinfo(main):
     for i in range(0, len(main)):
         if (main[i][0] == a):
             main.pop(i)
+            break
     print("Patient Record Deleted Successfully...!")
     # print(main)
 
